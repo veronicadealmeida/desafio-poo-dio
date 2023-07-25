@@ -1,13 +1,14 @@
-package br.com.dio.desafio.dominio;
+package br.com.dio.desafio.dominio.conteudo;
 
-public abstract class Conteudo {
+import br.com.dio.desafio.dominio.CalcularXp;
+
+public abstract class Conteudo implements CalcularXp {
 
     protected static final double XP_PADRAO = 10d;
 
     private String titulo;
     private String descricao;
 
-    public abstract double calcularXp();
 
     public String getTitulo() {
         return titulo;

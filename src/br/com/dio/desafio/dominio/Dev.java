@@ -1,5 +1,8 @@
 package br.com.dio.desafio.dominio;
 
+import br.com.dio.desafio.dominio.bootcamp.Bootcamp;
+import br.com.dio.desafio.dominio.conteudo.Conteudo;
+
 import java.util.*;
 
 public class Dev {

@@ -1,4 +1,7 @@
-package br.com.dio.desafio.dominio;
+package br.com.dio.desafio.dominio.bootcamp;
+
+import br.com.dio.desafio.dominio.Dev;
+import br.com.dio.desafio.dominio.conteudo.Conteudo;
 
 import java.time.LocalDate;
 import java.util.HashSet;

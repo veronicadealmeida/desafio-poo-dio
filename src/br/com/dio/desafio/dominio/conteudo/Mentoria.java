@@ -1,8 +1,10 @@
-package br.com.dio.desafio.dominio;
+package br.com.dio.desafio.dominio.conteudo;
+
+import br.com.dio.desafio.dominio.conteudo.Conteudo;
 
 import java.time.LocalDate;
 
-public class Mentoria extends Conteudo{
+public class Mentoria extends Conteudo {
 
     private LocalDate data;
 

@@ -1,6 +1,8 @@
-package br.com.dio.desafio.dominio;
+package br.com.dio.desafio.dominio.conteudo;
 
-public class Curso extends Conteudo{
+import br.com.dio.desafio.dominio.conteudo.Conteudo;
+
+public class Curso extends Conteudo {
 
     private int cargaHoraria;
 
